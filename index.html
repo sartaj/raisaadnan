@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Adnan &amp; Raisa</title>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <style>
+        body,
+        ul,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav,
+        h1,
+        img,
+        h2 {
+            margin-top: 0rem;
+        }
+
+        body {
+            font-family: "Playball", "Helvetica Neue", sans-serif;
+            font-size: 26px;
+            font-weight: bold;
+            text-align: left;
+            color: white;
+            background: black;
+            /*margin-left: 1rem;*/
+        }
+
+        .background {
+            background: url(./img/cover.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            -webkit-filter: blur(0px);
+        }
+        /* Portrait */
+
+        @media only screen and (orientation: portrait) {
+            .background {
+                background-position: 50%;
+            }
+        }
+
+        .background-content {
+            z-index: 2;
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+
+        .background-content img {
+            padding-top: 10vh;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        article {
+            /*position: relative;*/
+            /*z-index: 1*/
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            /*position: relative;*/
+            z-index: 5;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+        }
+
+        nav ul {
+            /*float: right;*/
+            text-align: right;
+            clear: both;
+            /*padding-right: 1vw;*/
+            /*padding-top: 1vh;*/
+        }
+
+        nav li a,
+        li a:visited {
+            font-weight: 400;
+            color: rgb(91, 181, 255);
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            text-decoration: underline;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            font-size: 2rem;
+            text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3)
+        }
+
+        nav ul li:after {
+            content: " | ";
+            font-weight: 300;
+            text-shadow: none;
+            color: rgba(255, 255, 255, 0.0)
+        }
+
+        nav ul li:last-child:after {
+            content: ""
+        }
+
+        section {
+            min-height: 50vh;
+        }
+
+        #holud,
+        #wedding,
+        #boubhat {
+            text-align: center;
+            font-size: 2rem;
+            padding: 5rem;
+            text-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: "Playfair Display";
+        }
+
+        #holud {
+            background: #FDC763;
+            color: rgba(13, 10, 3, 0.68);
+        }
+
+        #wedding {
+            background: #333;
+            color: #ccc;
+        }
+
+        .title {
+            font-size: 4rem;
+        }
+
+        .name-title {
+            font-size: 3rem;
+        }
+
+        .title,
+        .name-title {
+            font-family: "Playball";
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#hero">A &amp; R</a></li>
+            <li><a href="#holud">Holud</a></li>
+            <li><a href="#wedding">Nikkah + Wedding Ceremony</a></li>
+            <li><a href="#boubhat">Boubhat</a></li>
+        </ul>
+    </nav>
+    <div class="background">
+    </div>
+    <div class="background-content" id="hero">
+        <div style="margin: 0 auto; width: 100vw;text-align:center">
+            <img src="./img/logo-white.png" style="max-width:80vw">
+        </div>
+    </div>
+    <article>
+
+        <section id="holud">
+            <div class="title">Gaye-Holud</div>
+            Rona, Sartaj, & Ramisa
+            <br> cordially invite you to the
+            <br> Gaye-Holud Ceremony
+            <br> of their sister
+            <br>
+            <div class="name-title">Raisa</div>
+            <br>
+            <div style="max-width: 700px; margin: 0 auto">
+                <div style="float:left;text-align:right;">
+                    <br> Saturday May 28, 2016
+                    <br> at 7:30 pm
+                    <br> at Southfork Ranch
+                    <br> Parker, Texas
+                    <br>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.234087803978!2d-96.611581784811!3d33.050303480890264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1ae5447c4855%3A0x204b14436c5b4964!2sSouthfork+Ranch!5e0!3m2!1sen!2sus!4v1463464849013"
+                    width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="wedding">
+            <div class="title">Nikkah + Wedding Ceremony</div>
+            "In the name of Almight Allah
+            <br> the most Gracious and the most Merciful"
+            <br>
+            <br> Raihan Chowdhury and Sharmeen Chowdhury
+            <br> cordially request the holor of your gracious presence
+            <br> at the Wedding Ceremony
+            <br> of their daughter
+            <br>
+            <div class="name-title">Raisa Rahima Chowdhury</div>
+            <br>with
+            <br>
+            <div class="name-title">Adnan Rupam Khan</div>
+            <br>son of Mr. Alauddin Khan and Mrs. Lily Khan
+            <br>
+            <br>
+            <div style="max-width: 700px; margin: 0 auto">
+                <div style="float:left;text-align:right;">
+                    Saturday May 29, 2016
+                    <br> at 7:30 pm
+                    <br> Plano Centre
+                    <br> 2000 E Spring Creek Pkwy
+                    <br> Plano, Texas
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.0814937729924!2d-96.68669478478033!3d33.054321280889155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19959d6acdb5%3A0x9ed9e54ccb0374c8!2sPlano+Centre!5e0!3m2!1sen!2sus!4v1463465337615"
+                    width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="boubhat">
+            <div class="title">Boubhat</div>
+            <br> Mr. Alauddin Khan and Mrs. Lily Khan
+            <br> at the Boubhat
+            <br> of their son
+            <br>
+            <div class="name-title">Adnan Rupam Khan</div>
+            <br>
+            <br>
+            <div style="max-width: 700px; margin: 0 auto">
+                <div style="float:left;text-align:right;">
+                    <br>Tuesday June 2, 2016
+                    <br> at 7:30 pm
+                    <br> Tennessee
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313257.7188070645!2d-88.22205496736474!3d35.80967247923942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88614b239e97cf03%3A0x33e20c1a5819156!2sTennessee!5e0!3m2!1sen!2sus!4v1463466089640" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <!-- <nav>
+      <ul>
+        <li><a href="//www.linkedin.com/in/raisa-chowdhury-76875498">Linkedin</a> | <a href="//github.com/raisachowdhury">GitHub</a></li>
+      </ul>
+    </nav> -->
+    </article>
+
+</body>
+
+</html>
